@@ -1,11 +1,11 @@
-# 🔁 Upgradeable Smart Contract Demo – BoxV1 → BoxV2
+# Upgradeable Smart Contract Demo – BoxV1 → BoxV2
 
-## 📦 Overview
+## Overview
 This project demonstrates the use of **upgradeable smart contracts** via the **Proxy + Logic contract pattern**. It highlights how contract logic can be extended **without redeploying or losing storage data**—an essential feature in long-term DeFi and dApp systems.
 
 ---
 
-## 🧠 Why Upgradeability Matters
+## Why Upgradeability Matters
 - On-chain applications evolve.
 - Bugs get patched.
 - Features get added.
@@ -15,7 +15,7 @@ This contract design separates **logic (BoxV1/BoxV2)** from **storage (Proxy)**,
 
 ---
 
-## ⚙️ Structure
+## Structure
 
 ### `BoxV1.sol`
 - Initial implementation
@@ -29,7 +29,7 @@ This contract design separates **logic (BoxV1/BoxV2)** from **storage (Proxy)**,
 
 ---
 
-## 🚀 Upgrade Workflow (Simplified)
+##  Upgrade Workflow (Simplified)
 1. Deploy Proxy with `BoxV1`
 2. Use `store()` and `retrieve()` as normal
 3. Upgrade Proxy to point to `BoxV2`
@@ -37,14 +37,14 @@ This contract design separates **logic (BoxV1/BoxV2)** from **storage (Proxy)**,
 
 ---
 
-## 🧪 Tech Stack
+##  Tech Stack
 - **Solidity**
 - **Foundry** (for testing & deploying)
 - **UUPS or Transparent Proxy pattern** (depending on setup)
 
 ---
 
-## 💼 Real-World Application
+##  Real-World Application
 Used in:
 - DeFi protocols needing versioned logic (Aave, Compound)
 - DAOs for governance logic upgrades
@@ -52,21 +52,20 @@ Used in:
 
 ---
 
-## 🧠 Developer Notes
+##  Developer Notes
 This example is part of my journey into **secure, scalable smart contract design**. I'm actively building and testing advanced patterns used in production-level dApps and DeFi systems.
 
 Stay tuned for more modules.
 
 ---
 
-## 🔗 Related Projects
+##  Related Projects
 - [Modular Vault System](#) (DeFi)
 - [NFT-based Airdrop Contract](#)
 - [Multi-Sig Wallet Simulation](#)
 
 ---
 
-## 🧑‍💻 Built by:
-[Your Name]  
-> Solidity Developer | DeFi Builder | Eidetic Architect  
-> *“I don’t memorize code. I simulate it.”*
+## Built by:
+Alman Adeel 
+
